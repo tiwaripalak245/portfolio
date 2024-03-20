@@ -78,7 +78,7 @@ margin-bottom: 1em
     width: 100px;
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 576px) and (max-width: 768px) {
     .about-card {
       height: 520px;
 

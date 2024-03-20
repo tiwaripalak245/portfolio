@@ -6,7 +6,7 @@ const ProjectCard = ({project}) => {
 <>
 <div className="card redbox" data-aos="fade-up"
      data-aos-duration="3000">
-      <video src={project.video}></video>
+      {/* <video src={project.video}></video> */}
         <h2 className="tip">{project.title}</h2>
         <p className="second-text">{project.description}</p>
         <span className='"button-box"'>
