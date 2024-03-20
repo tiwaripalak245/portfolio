@@ -1,0 +1,76 @@
+[
+  {
+    "title": "TechAssistHub",
+    "video": "https://player.vimeo.com/progressive_redirect/playback/918954314/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=c072a8a87bf3a4490635538de73619efde3556aa2ff52aab4561944a98f5b257",
+    "description": "I showcase a support desk ticket management system built with React, styled using Tailwind CSS for sleek UI design, and enhanced with Redux for efficient state management. The system incorporates user authentication powered by JWT tokens to ensure secure access, while also offering an intuitive admin panel for streamlined ticket monitoring and management. By leveraging modern technologies and best practices, I've crafted a robust solution that not only simplifies support ticket handling but also prioritizes user security and seamless administrative functionality.",
+    "skills": ["React", "Express", "Node", "MongoDB", "Tailwind"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "CryptoTracker",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a comprehensive cryptotracker application using React.js and Redux for seamless state management. The app features robust user authentication functionalities, including registration, login, and logout features, ensuring data security and personalized user experiences. With a focus on responsive design, I utilized Material-UI components to create an intuitive user interface that adapts seamlessly to various screen sizes and devices. Leveraging React Router, the app efficiently calls an API to fetch cryptocurrency data, providing users with real-time updates and insights. ",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "E-commerce Store",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a dynamic ecommerce website using React, incorporating HTML, CSS, and Bootstrap for intuitive UI design. Leveraging the Context API and reducer for state management, I ensured seamless functionality and efficient data handling throughout the application. The website features essential ecommerce features such as cart functionality and wishlist management, allowing users to add and remove items with ease. By integrating API calls to fetch product data, I implemented responsive product cards to display product information effectively.",
+    "skills": ["React", "Express", "Node", "Redux"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+
+
+  {
+    "title": "NewsHub",
+    "imageSrc": "projects/project.png",
+    "description": " I've developed a feature-rich news application using React, focusing on delivering a seamless user experience. The user interface, designed to be responsive and user-friendly, is enhanced through the integration of Bootstrap, ensuring a seamless experience across various devices. Beyond simply delivering news updates, the application offers added value by integrating features such as weather forecasting and quotes functionalities, each seamlessly integrated via multiple API calls. Moreover, to enhance user navigation and experience, I've implemented routing throughout the application, allowing users to effortlessly explore the various features and content offerings. This comprehensive approach results in a dynamic and engaging news application that not only keeps users informed but also provides additional insights and utilities, making it a valuable tool in their daily digital interactions.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Expense Manager",
+    "imageSrc": "projects/project.png",
+    "description": "Expense Manager application using React, leveraging the powerful capabilities of the Context API and reducer for efficient state management. This comprehensive application serves as a versatile platform for users to meticulously track their expenses and incomes, providing real-time updates on their current balance. With seamless functionalities for adding, editing, updating, and deleting balance history entries, users can easily maintain accurate financial records. Designed specifically for effective finance management, this web application offers a user-friendly interface tailored to streamline the task of organizing and monitoring expenses, ensuring users have full control over their finances with ease and convenience.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Contact Manager",
+    "imageSrc": "projects/project.png",
+    "description": "Contact Manager application built on React, users can efficiently organize and manage their contacts with ease. Leveraging Bootstrap for sleek and responsive styling, the application offers a visually appealing interface for seamless navigation. Utilizing the Context API, the state management ensures smooth data handling, allowing users to add, update, and delete contacts effortlessly. A notable feature includes the ability to categorize contacts, providing users with the flexibility to organize their contacts based on specific criteria. This project serves as a comprehensive solution for individuals seeking efficient contact management, offering a user-friendly experience tailored to meet their organizational needs effectively.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/project.png",
+    "description": "In this Weather App project, I've crafted an engaging user interface using HTML and CSS, ensuring both aesthetics and functionality. Leveraging JavaScript, the app comes to life with dynamic and interactive features achieved through DOM manipulation, providing a seamless user experience. By integrating the Fetch API, the application efficiently calls upon weather data for various cities, updating the interface dynamically to display accurate weather forecasts. Users can effortlessly navigate through the app to explore weather conditions in different locations, making it a valuable tool for staying informed and planning activities accordingly. This project serves as a comprehensive and visually appealing solution for users seeking reliable weather forecasts with an intuitive interface.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Calculator App",
+    "imageSrc": "projects/project.png",
+    "description": "Calculator App project, I've designed a visually captivating user interface using HTML and CSS, ensuring a seamless blend of aesthetics and functionality. Harnessing the power of JavaScript, the application transforms into a dynamic and interactive tool, enabling users to perform a wide range of calculations with ease. Through DOM manipulation, elements are dynamically created and updated, providing a responsive and intuitive user experience. Users can effortlessly navigate through the app to perform various calculations, making it a versatile and indispensable tool for everyday mathematical tasks. This project offers a comprehensive solution for users seeking both practicality and elegance in a calculator application.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "QR code generator",
+    "imageSrc": "projects/project.png",
+    "description": "QR Code Generator application, I've developed a versatile tool using JavaScript, offering users a seamless solution for generating QR codes. Through an intuitive user interface, users can input desired data or URLs and instantly generate QR codes with just a few clicks. Leveraging the capabilities of JavaScript, the application ensures smooth functionality and responsiveness, allowing for efficient QR code generation across various devices. The app's streamlined design prioritizes user experience, making it easy for users to navigate and utilize its features effectively. ",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

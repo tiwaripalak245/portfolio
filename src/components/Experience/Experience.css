@@ -1,0 +1,122 @@
+.exp-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px;
+    
+  }
+  
+  .exp-cards .red {
+
+    background-color: #fcfafa;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+  
+  .exp-cards .white {
+    background-color: #fcfafa;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+  
+  .exp-cards .blue {
+    background-color: #fcfafa;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+  
+  .exp-cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .exp-cards .card p {
+    font-size: 1em;
+    text-align: start;
+    padding: 20px;
+  }
+  
+  .exp-cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .exp-cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .exp-cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+  .exp-cards .card ul{
+    padding: 30px;
+  }
+  .exp-cards .card ul li{
+    text-align: left;
+  }
+
+  .button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .head-button {
+      padding: 1em 2em;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: black;
+      transition: all 1000ms;
+      font-size: 15px;
+      position: relative;
+      overflow: hidden;
+      outline: 2px solid #f43f5e;
+    }
+    
+    .head-button:hover {
+      color: #ffffff;
+      transform: scale(1.1);
+      outline: 2px solid #ef92a1;
+      box-shadow: 4px 5px 17px -4px #f43f5e;
+    }
+    
+    .head-button::before {
+      content: "";
+      position: absolute;
+      left: -50px;
+      top: 0;
+      width: 0;
+      height: 100%;
+      background-color: #f43f5e;
+      transform: skewX(45deg);
+      z-index: -1;
+      transition: width 1000ms;
+    }
+    
+    .head-button:hover::before {
+      width: 250%;
+    }
+
+    @media (max-width: 768px) {
+      .exp-cards .card {
+        width: 100%; 
+        height: auto;
+        margin: 0 20px; 
+        padding: 30px;
+      }
+    }
