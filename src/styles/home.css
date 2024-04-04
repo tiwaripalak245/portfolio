@@ -1,12 +1,9 @@
-.main-container{
-    background-color: #fcfafa;
 
-}
 
 
 @media (min-width: 576px) and (max-width: 576.98px) {
 .main-container{
-    width: 100%;
+    max-width: 100%;
 }
 }
 

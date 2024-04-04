@@ -113,17 +113,17 @@
     flex-direction: column;
   }
     .button-box {
-      margin: 3rem 0rem 2rem 0rem; /* Adjusted margin */
+      margin: 3rem 0rem 2rem 0rem; 
     }
     
     .form-control {
-      width: 100%; /* Adjusted width */
-      max-width: 90%; /* Adjusted max-width */
+      width: 100%;
     }
 
     .footer-text{
-      max-width: 100%;
       text-align: start;
-      padding-left: 50px;
+      max-width: 100%;
+      padding: 2em;
+      padding-left: 5em;
     }
   }
