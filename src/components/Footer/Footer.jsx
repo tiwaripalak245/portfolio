@@ -62,9 +62,7 @@ const Footer = () => {
               <input className="submit-btn" type="submit" value="Send" />
             </form>
           </div>
-          <div className="footer-text"
-          
-          >
+          <div className="footer-text">
             <h1 className="title">Contact Info</h1>
             <p>
               <FaUser /> : Palak Tiwari

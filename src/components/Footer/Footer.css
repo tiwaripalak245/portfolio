@@ -107,6 +107,7 @@
   @media (max-width: 768px) {
 
   .contact-form{
+    max-width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -121,6 +122,7 @@
     }
 
     .footer-text{
+      max-width: 100%;
       text-align: start;
       padding-left: 50px;
     }

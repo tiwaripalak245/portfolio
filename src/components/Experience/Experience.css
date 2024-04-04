@@ -1,9 +1,11 @@
 .exp-cards {
+  max-width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 15px;
     margin: 30px;
+    border: 2px solid green;
     
   }
   
@@ -38,6 +40,8 @@
     color: rgb(1, 1, 1);
     cursor: pointer;
     transition: 400ms;
+    border: 3px solid green;
+
   }
   
   .exp-cards .card p {
@@ -112,9 +116,19 @@
       width: 250%;
     }
 
+    @media screen and (max-width: 576px){
+      .exp-cards{
+        max-width: 80%;
+        height: auto;
+        margin: 0 20px; 
+        padding: 30px;
+      }
+    }
+
     @media (max-width: 768px) {
+
       .exp-cards .card {
-        width: 100%; 
+        max-width: 100%; 
         height: auto;
         margin: 0 20px; 
         padding: 30px;
